@@ -10,7 +10,7 @@ University ID:2201003965
 ### Load packages
 
 ```{r load-packages, message=FALSE}
-library(tidyverse) 
+library(tidyverse)
 library(datasauRus)
 ```
 
