@@ -25,11 +25,8 @@ Answer for Task 2
 >dino_data <- datasaurus_dozen %>% filter(dataset == "dino")
 >ggplot(data == dino_data, mapping = aes(x = x, y = y)) + geom_point()
 
-Answer for task 3
+Answer for Task 3
 > star_data <- datasaurus_dozen %>% filter(dataset == "star")
 > ggpiot(data == star_data, mapping = aes(x = x, y = y)) + geom_point()
-
-
-
 
 (Type your answer to the Exercise here. Remember to include the code, you need to put the code between three backticks followed by the following line on top of the code {r load-packages, message=FALSE}. See 'Load Packages' above as an example. Delete everything in these brackets after typing your answer.)
