@@ -15,20 +15,14 @@ library(datasauRus)
 ```
 
 
-### Lab Exercise(>library)(tidyverse)
->(library(datasauRus))
-> head(datasaurus)
-> summary(datasaurus)
-> view(datasaurus)
+### Lab Exercise
 
-Answer for Task 2
->dino_data <- datasaurus_dozen %>% filter(dataset == "dino")
->ggplot(data == dino_data, mapping = aes(x = x, y = y)) + geom_point()
+code :
+circle_data <- datasaurus_dozen %>% filter(dataset == "circle")
+ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()
 
-Answer for Task 3
-> star_data <- datasaurus_dozen %>% filter(dataset == "star")
-> ggpiot(data == star_data, mapping = aes(x = x, y = y)) + geom_point()
 
-Answer for Task 4
-> circle_data <- datasaurus_dozen %>% filter(dataset == "circle")
-> ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()
+(correlation coefficient = -0.0645 ) in dino
+( the graph like dinosaur )
+(correlation coefficient = -0.0683 ) in circle
+( the graph like circle )
