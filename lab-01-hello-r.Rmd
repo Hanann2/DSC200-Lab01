@@ -1,6 +1,6 @@
 ---
 title: "Lab 01 - Hello R"
-author: "Hanan Munthir"
+author: "Hanan Munthir Aldhafeeri"
 date: "2/7/2021"
 output: html_document
 ---
@@ -32,5 +32,3 @@ Answer for Task 3
 Answer for Task 4
 > circle_data <- datasaurus_dozen %>% filter(dataset == "circle")
 > ggplot(data = circle_data, mapping = aes(x = x, y = y)) + geom_point()
-
-
